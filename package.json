@@ -1,0 +1,12 @@
+{
+    "name": "vanilla-js-design-patterns",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type":"module",
+    "scripts": {
+        "command": "node ./command/script.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
