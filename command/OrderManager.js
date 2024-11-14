@@ -17,3 +17,5 @@ class OrderManager {
         return `You have canceled your order ${id}`;
     }
 }
+
+export default OrderManager;
