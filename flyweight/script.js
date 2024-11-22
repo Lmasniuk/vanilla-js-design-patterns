@@ -2,6 +2,20 @@
 Purpose:
 The flyweight pattern is a useful way to conserve memory when we’re creating a large number of similar objects
 
+
+Pros
+- Useful when creating a huge number of objects that could drain all RAM.
+- Helps us conserve memory usage when creating many objects.
+
+Cons
+- increased complexity
+- tighter coupling
+- potentially more challenging debugging
+
+
+Notes:
+- Because we have prototypal inheritance in JS, this problem is easily solved. Also we have lots of RAM available.
+- Lots of automatic optimizations happen nowadays so the pattern is less relevant.
 */
 
 class Book {
